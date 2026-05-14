@@ -2724,6 +2724,9 @@ app.get('/blog/how-hummatch-works', (_req, res) => {
 app.get('/blog/how-hummatch-was-built', (_req, res) => {
   res.sendFile(path.join(__dirname, 'blog', 'how-hummatch-was-built.html'));
 });
+app.get('/blog/from-swipe-culture-to-sing-culture', (_req, res) => {
+  res.sendFile(path.join(__dirname, 'blog', 'from-swipe-culture-to-sing-culture.html'));
+});
 app.get('/blog', (_req, res) => {
   res.sendFile(path.join(__dirname, 'blog', 'index.html'));
 });
